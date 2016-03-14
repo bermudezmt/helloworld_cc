@@ -24,15 +24,13 @@ if(isset($_POST['registration-form-submit']))
 	if(mysql_query($insert))
 	{
 		?>
-		<div class="container-fluid">
 		<p> Welcome <?php echo ($formdata[first_name]).' '.($formdata[last_name]) ?> </p>
-		</div>
+
 		<?php
 	}
 	else
 	{
 		?>
-		<div class="container-fluid">
 		<p> Something went wrong with your registration. We apologize for the inconvenience. </p>
 		<?php
 	}		
