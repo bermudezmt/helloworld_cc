@@ -18,7 +18,6 @@
 					<ul class="nav">
 						<li><a href="/">Home</a></li>
 						<li><a href="/register.php">Register</a></li>
-						<li><a href="/viewreport.php">View Report</a></li>
 					</ul>
 				</nav>
 			</div>
