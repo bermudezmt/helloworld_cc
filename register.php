@@ -106,7 +106,7 @@
             <div class="form-group">
                  <div class="col-sm-2">
                  	<label for="country" class="control-label">Country</label>
-                        <input type="text" class="form-control" id="country" name="country" value="US" disabled>
+                        <input type="text" class="form-control" id="country" name="country" value="US" readonly>
                  </div>
             </div>
 		 <div class="col-md-6">

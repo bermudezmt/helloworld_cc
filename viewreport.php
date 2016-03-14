@@ -23,7 +23,7 @@ include_once 'dbconnect.php';
 		while ($row = mysql_fetch_assoc($result)) {
 		echo '<tr>';
 			echo '<td>'.$row['firstname'].'</td>';
-			echo '<td>'.$row['lasttname'].'</td>';
+			echo '<td>'.$row['lastname'].'</td>';
 			echo '<td>'.$row['address1'].'</td>';
 			echo '<td>'.$row['address2'].'</td>';
 			echo '<td>'.$row['city'].'</td>';
